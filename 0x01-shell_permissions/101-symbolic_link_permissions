@@ -1,0 +1,2 @@
+#!/bin/bash
+file="_hello" [ -L "$file" ] link=$(readlink -f "$file") chown -h vincent:staff "$link" chown vincent:staff "$file"
