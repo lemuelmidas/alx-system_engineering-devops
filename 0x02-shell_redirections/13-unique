@@ -1,2 +1,2 @@
 #!/bin/bash
-read -p "Enter words (separated by spaces): " input; echo "$input" | tr ' ' '\n' | sort | uniq -u
+sort | uniq -u
