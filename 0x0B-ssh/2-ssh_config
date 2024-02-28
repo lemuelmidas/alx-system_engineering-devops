@@ -1,4 +1,9 @@
 # server config options
-Host 34.75.91.155
+Host *
+    PasswordAuthentication no
     IdentityFile ~/.ssh/school
     Protocol 2
+    HashKnownHosts yes
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredwntials no
+    SendEnv LANG LC_*
