@@ -19,8 +19,8 @@ frontend haproxynode
 backend backendnodes
     balance roundrobin
     option forwardfor
-    server 1543-web-01 104.196.116.233:80 check
-    server 1543-web-02 54.165.130.77:80 check
+    server 425235-lb-01 107.23.108.224 check
+    server 425235-web-02 54.209.218.95 check
 
 listen stats
     bind :32700
